@@ -1,0 +1,100 @@
+body {
+  color: rgb(0, 50, 230);
+  font-family: "Nunito", Helvetica, sans-serif;
+  margin-bottom: 64px;
+}
+.wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 800px;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+}
+
+.content.header {
+  margin-top:48px;
+}
+
+.content.header p {
+  margin: 4px 0 0;
+}
+
+.content h2 {
+  font-family: "atwriter", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.content > div {
+  flex: 1;
+  margin: 0 16px;
+}
+
+.hero-img {
+  background-image: url(./assets/images/Samir_Och_Felicia_Gifter_Sig.png);
+  height: 65vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+div.header-text {
+  display: flex;
+  flex-direction: column;
+  font-family: "atwriter", Arial, Helvetica, sans-serif;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.header-text h1 {
+  font-size: 30px;
+  margin: 0;
+  font-weight: 100;
+}
+
+.header-text > div {
+  width: 100%;
+}
+
+.header-text .divider {
+  background-color: rgb(0, 50, 230);
+  margin: 16px 0;
+  padding: 0;
+  width: 5px;
+}
+
+@font-face {
+  font-family: "atwriter";
+  src: url("./assets/fonts/atwriter.ttf") format("truetype"); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("./assets/fonts/Nunito-VariableFont_wght.ttf") format("truetype"); /* Safari, Android, iOS */
+}
+
+@media only screen and (max-width: 600px) {
+  .content.header {
+    flex-direction: column;
+  }
+  .content .filler {
+    display: none;
+  }
+  .header-text h1 {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 600px) {
+}
+/*@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 992px) {
+}
+@media only screen and (min-width: 1200px) {
+} */
