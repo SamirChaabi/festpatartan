@@ -1,7 +1,7 @@
 body {
   color: rgb(0, 50, 230);
   font-family: "Nunito", Helvetica, sans-serif;
-  margin-bottom: 64px;
+  margin: 0 0 64px 0;
 }
 .wrapper {
   align-items: center;
@@ -49,17 +49,12 @@ div.header-text {
   font-family: "atwriter", Arial, Helvetica, sans-serif;
   justify-content: space-between;
   margin-bottom: 16px;
-  width: 100%;
 }
 
 .header-text h1 {
   font-size: 30px;
   margin: 0;
   font-weight: 100;
-}
-
-.header-text > div {
-  width: 100%;
 }
 
 .header-text .divider {
